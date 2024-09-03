@@ -231,9 +231,9 @@ def upload_dataset(code_interpreter):
         raise error
 ```
 
-### 6. Put everything Groq
+### 6. Put everything together
 
-Finally we put everything Groq and let the AI assistant upload the data, run an analysis, and generate a PNG file with a chart. 
+Finally we put everything together and let the AI assistant upload the data, run an analysis, and generate a PNG file with a chart. 
 You can update the task for the assistant in this step. If you decide to change the CSV file you are using, don't forget to update the prompt too.
 
 ```python
