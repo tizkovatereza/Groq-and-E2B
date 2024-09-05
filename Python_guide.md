@@ -1,6 +1,6 @@
 # Code Interpreting with Groq and E2B
 
-Learn how to use E2B with Groq LLMs to securely run the AI-generated code.
+Learn how to use E2B with LLMs powered by Groq to securely run the AI-generated code.
 
 ## What is E2B?
 
