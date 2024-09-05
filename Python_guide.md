@@ -130,9 +130,9 @@ Information about the csv dataset:
 Generally, you follow these rules:
 - ALWAYS FORMAT YOUR RESPONSE IN MARKDOWN
 - ALWAYS RESPOND ONLY WITH CODE IN CODE BLOCK LIKE THIS:
-```python
+${```}python
 {code}
-```
+${```}
 - the Python code runs in jupyter notebook.
 - every time you generate Python, the code is executed in a separate cell. it's okay to make multiple calls to `execute_python`.
 - display visualizations using matplotlib or any other visualization library directly in the notebook. don't worry about saving the visualizations to a file.
