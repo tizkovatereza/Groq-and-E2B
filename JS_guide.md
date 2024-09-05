@@ -1,6 +1,6 @@
 # Code Interpreting with Groq and E2B
 
-Learn how to use E2B with Groq LLMs to securely run the AI-generated code.
+Learn how to use E2B with LLMs powered by Groq to securely run the AI-generated code.
 
 ## What is E2B?
 
@@ -141,7 +141,7 @@ Generally, you follow these rules:
 
 ### 4. Add code interpreting capabilities and initialize the model
 
-Now we define the function that will use the code interpreter by E2B. Everytime the LLM assistant decides that it needs to execute code, this function will be used. Read more about the Code Interpreter SDK [here](https://e2b.dev/docs/code-interpreter/installation).
+Now we define the function that will use the code interpreter by E2B. Every time the LLM assistant decides that it needs to execute code, this function will be used. Read more about the Code Interpreter SDK [here](https://e2b.dev/docs/code-interpreter/installation).
 We also initialize the Groq client. The function for matching code blocks is important because we need to pick the right part of the output that contains the code produced by the LLM. The chat function takes care of the interaction with the LLM. It calls the E2B code interpreter anytime there is a code to be run.
 
 ```js
@@ -229,9 +229,9 @@ async function uploadDataset(codeInterpreter: CodeInterpreter): Promise<string> 
 }
 ```
 
-### 6. Put everything Groq
+### 6. Put everything together
 
-Finally we put everything Groq and let the AI assistant upload the data, run an analysis, and generate a PNG file with a chart. 
+Finally, we put everything together and let the AI assistant upload the data, run an analysis, and generate a PNG file with a chart. 
 You can update the task for the assistant in this step. If you decide to change the CSV file you are using, don't forget to update the prompt too.
 
 
